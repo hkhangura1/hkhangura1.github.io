@@ -1,3 +1,5 @@
+<button onclick="castSpell()">Click to Cast a Spell!</button>
+    <p id="spellResult"></p>
 <script>
    function heavyLoop() {
      let x = 0;
