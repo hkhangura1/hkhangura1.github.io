@@ -135,7 +135,7 @@ fn tint_symbol_31_inner(tint_symbol_29 : vec2f, tint_symbol_32 : u32) -> tint_sy
   let x_226 = ((x_215 / 10.0f) * 0.5f);
   let x_234 = tint_symbol_8.inner.tint_symbol_6;
   let x_231 = tint_symbol_14(x_234);
-  let x_235 = tint_symbol_20(((tint_symbol_29 / vec2f(10.0f)) + ((vec2f(x_219) + ((vec2f(f32(x_203), f32(x_204)) / vec2f(10.0f)) * x_215)) + vec2f(x_226))), x_231);
+  let x_235 = tint_symbol_20(((tint_symbol_29 / vec2f(1.0f)) + ((vec2f(x_219) + ((vec2f(f32(x_203), f32(x_204)) / vec2f(10.0f)) * x_215)) + vec2f(x_226))), x_231);
   let x_239 = (x_235 * tint_symbol_8.inner.tint_symbol_7);
   tint_symbol_41.tint_symbol_29 = vec4f(x_239.x, x_239.y, 0.0f, 1.0f);
   tint_symbol_41.tint_symbol_30 = f32(tint_symbol_9.inner[tint_symbol_32]);
